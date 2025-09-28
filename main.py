@@ -37,7 +37,7 @@ from aiogram.enums import ParseMode
 from aiogram.types import BotCommand
 
 try:
-    from config_harsh import load_config
+    from config import load_config
     from database import DatabaseService
 except ImportError as e:
     print(f"❌ ОШИБКА: Не найден модуль {e.name}")
